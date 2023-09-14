@@ -3,6 +3,6 @@ data "aws_ami_ids" "amazon" {
 
   filter {
     name   = "name"
-    values = ["amazon/*-kernel-*-x86_64"]
+    values = ["al*-ami-*-kernel-*-x86_64"]
   }
 }
